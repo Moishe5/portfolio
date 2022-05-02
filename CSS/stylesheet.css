@@ -1,7 +1,15 @@
 
 #main-container {
     width: 1000px;
-    height: 2000px;
-    background-color: grey;
+    height: 1500px;
+    background-color: rgb(180, 180, 180);
 }
 
+body {
+    width: 100%;
+    height: auto;
+}
+
+#nav {
+    background-color: rgb(45, 115, 60) ;
+}
