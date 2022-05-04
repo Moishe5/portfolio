@@ -7,14 +7,76 @@
 }
 
 body {
-    width: 100%;
-    height: auto;
+    width: 1000px;
+    height: 1500px;
+    background-color: rgb(180, 180, 180);
 }
 
 #nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100%;
     background-color: rgb(45, 115, 60) ;
 }
 
+#ABOUT-ME-1 {
+    display: flex;
+    justify-content: center;
+    outline: 5pt;
+    outline-color: rgb(180, 180, 180);
+    height: 50px;
+    width: 300px;
+}
+
+#DIGITAL-GALLERY-1 {
+    display: flex;
+    justify-content: center;
+    outline: 5pt,rgb(180, 180, 180) ;
+    height: 50px;
+    width: 300px;
+}
+
+#ANALOG-GALLERY-1 {
+    display: flex;
+    justify-content: center;
+    outline: 5pt,rgb(180, 180, 180) ;
+    height: 50px;
+    width: 300px;
+}
+
 #footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100%;
     background-color: rgb(45, 115, 60) ;
 }
+
+#ABOUT-ME-2 {
+    display: flex;
+    justify-content: center;
+    outline: 5pt;
+    outline-color: rgb(180, 180, 180);
+    height: 50px;
+    width: 300px;
+}
+
+#DIGITAL-GALLERY-2 {
+    display: flex;
+    justify-content: center;
+    outline: 5pt,rgb(180, 180, 180) ;
+    height: 50px;
+    width: 300px;
+}
+
+#ANALOG-GALLERY-2 {
+    display: flex;
+    justify-content: center;
+    outline: 5pt,rgb(180, 180, 180) ;
+    height: 50px;
+    width: 300px;
+}
+
