@@ -1,36 +1,41 @@
 
 #main-container {
-    margin: 0px;
+    margin:auto ;
     width: 1000px;
     height: 1500px;
     background-color: rgb(180, 180, 180);
 }
 
 body {
-    width: 1000px;
-    height: 1500px;
-    background-color: rgb(180, 180, 180);
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    margin: 0px;
 }
 
 #nav {
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     height: 100px;
     width: 100%;
     background-color: rgb(45, 115, 60) ;
+    font-size: 24pt;
+    margin-bottom: 108px;
 }
 
-#ABOUT-ME-1 {
+.ABOUT-ME-1 {
+    width: 300px;
+    height: 50px;
+    border: 5pt solid rgb(180, 180, 180);
     display: flex;
     justify-content: center;
-    outline: 5pt;
-    outline-color: rgb(180, 180, 180);
-    height: 50px;
-    width: 300px;
 }
 
-#DIGITAL-GALLERY-1 {
+.DIGITAL-GALLERY-1 {
     display: flex;
     justify-content: center;
     outline: 5pt,rgb(180, 180, 180) ;
@@ -38,7 +43,7 @@ body {
     width: 300px;
 }
 
-#ANALOG-GALLERY-1 {
+.ANALOG-GALLERY-1 {
     display: flex;
     justify-content: center;
     outline: 5pt,rgb(180, 180, 180) ;
@@ -47,15 +52,17 @@ body {
 }
 
 #footer {
+    margin-top: 206px ;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     height: 100px;
     width: 100%;
     background-color: rgb(45, 115, 60) ;
+    font-size: 24pt;
 }
 
-#ABOUT-ME-2 {
+.ABOUT-ME-2 {
     display: flex;
     justify-content: center;
     outline: 5pt;
@@ -64,7 +71,7 @@ body {
     width: 300px;
 }
 
-#DIGITAL-GALLERY-2 {
+.DIGITAL-GALLERY-2 {
     display: flex;
     justify-content: center;
     outline: 5pt,rgb(180, 180, 180) ;
@@ -72,7 +79,7 @@ body {
     width: 300px;
 }
 
-#ANALOG-GALLERY-2 {
+.ANALOG-GALLERY-2 {
     display: flex;
     justify-content: center;
     outline: 5pt,rgb(180, 180, 180) ;
@@ -80,3 +87,21 @@ body {
     width: 300px;
 }
 
+#GOOFY-AHH {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paragraph-1 {
+    display: flex;
+    justify-content: left;
+}
+
+.image-of-me {
+    border: 10px black ;
+    display: flex;
+    justify-items: flex-end; 
+    flex-direction: row;
+    margin-top: 185px ;
+}
