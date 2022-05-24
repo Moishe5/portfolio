@@ -1,11 +1,9 @@
 
 #main-container {
-
     margin:auto ;
     width: 1000px;
     height: 1500px;
     background-color: rgb(180, 180, 180);
-
 }
 
 body {
@@ -15,7 +13,6 @@ body {
     height: auto;
     background-color: grey;
     margin: 0px;
-   
 }
 
 #logo {
@@ -23,7 +20,7 @@ body {
 }
 
 #nav {
-    font-family: 'Arial Narrow Bold', sans-serif;ily: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
     margin-top: 100px;
     display: flex;
     flex-direction: row;
@@ -61,7 +58,7 @@ body {
 
 #footer {
     font-family: 'Arial Narrow Bold', sans-serif;
-    margin-top: 206px ;
+    margin-top: 200px ;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -97,15 +94,20 @@ body {
     width: 300px;
 }
 
-.image-of-me {
-    border: 10px black ;
+#ABOUT-ME-HEADER {
     display: flex;
-    justify-items: flex-end;
-    margin-top: 185px ;
+    justify-content: center;
 }
 
-.stuff {
+#stuff {
     display: flex;
-    
     flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#paragraph-1 {
+    display: flex;
+    width: 411px;
+    height: 616px;
+    
 }
