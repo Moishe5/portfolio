@@ -1,4 +1,5 @@
 
+
 #main-container {
     margin:auto ;
     width: 1000px;
@@ -94,7 +95,7 @@ body {
     width: 300px;
 }
 
-#art-uno , #art-dos {
+#art-uno , #art-dos , #art-tres{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 120px;
@@ -109,4 +110,28 @@ h1 {
     justify-content: center;
     margin-bottom: 125px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.art-uno {
+    transition: all .2s ease-in;
+}
+
+.art-uno:hover {
+    transform: scale(1.5);
+}
+
+.art-dos {
+    transition: all .2s ease-in;
+}
+
+.art-dos:hover {
+    transform: scale(1.5);
+}
+
+.art-tres {
+    transition: all .2s ease-in;
+}
+
+.art-tres:hover {
+    transform: scale(1.5);
 }
